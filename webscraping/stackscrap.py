@@ -9,7 +9,7 @@ db = client.test
 tb = db.stackoverflow_collection
 """
 for i in range(1, 10):
-    html_page = urlopen("https://stackoverflow.com/users?page=" + 'i' + "&tab=reputation&filter=all")
+    html_page = urlopen("https://stackoverflow.com/users?page=" + repr(i) + "&tab=reputation&filter=all")
     soup = BeautifulSoup(html_page, "lxml")
     user_details = soup.find_all('div', class_="user-details")
     for i in user_details:
