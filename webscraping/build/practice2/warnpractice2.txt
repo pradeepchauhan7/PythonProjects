@@ -1,0 +1,24 @@
+missing module named nt - imported by os, ntpath, shutil, /home/pradeep/projectsBlockchain/PythonProjectsRepo/webscraping/practice2.py
+missing module named org - imported by pickle, /home/pradeep/projectsBlockchain/PythonProjectsRepo/webscraping/practice2.py
+excluded module named _frozen_importlib - imported by importlib, importlib.abc, /home/pradeep/projectsBlockchain/PythonProjectsRepo/webscraping/practice2.py
+missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, /home/pradeep/projectsBlockchain/PythonProjectsRepo/webscraping/practice2.py
+missing module named _winreg - imported by platform, /home/pradeep/projectsBlockchain/PythonProjectsRepo/webscraping/practice2.py
+missing module named java - imported by platform, /home/pradeep/projectsBlockchain/PythonProjectsRepo/webscraping/practice2.py
+missing module named 'java.lang' - imported by platform, xml.sax._exceptions, /home/pradeep/projectsBlockchain/PythonProjectsRepo/webscraping/practice2.py
+missing module named vms_lib - imported by platform, /home/pradeep/projectsBlockchain/PythonProjectsRepo/webscraping/practice2.py
+missing module named winreg - imported by platform, mimetypes, urllib.request, /home/pradeep/projectsBlockchain/PythonProjectsRepo/webscraping/practice2.py
+missing module named msvcrt - imported by subprocess, getpass, /home/pradeep/projectsBlockchain/PythonProjectsRepo/webscraping/practice2.py
+missing module named _winapi - imported by subprocess, /home/pradeep/projectsBlockchain/PythonProjectsRepo/webscraping/practice2.py
+missing module named _dummy_threading - imported by dummy_threading, /home/pradeep/projectsBlockchain/PythonProjectsRepo/webscraping/practice2.py
+missing module named 'org.python' - imported by copy, xml.sax, /home/pradeep/projectsBlockchain/PythonProjectsRepo/webscraping/practice2.py
+missing module named _scproxy - imported by urllib.request
+missing module named iconv_codec - imported by bs4.dammit
+missing module named cchardet - imported by bs4.dammit
+missing module named StringIO - imported by six
+missing module named html5lib.treebuilders._base - imported by html5lib.treebuilders, bs4.builder._html5lib
+runtime module named six.moves - imported by html5lib._inputstream, html5lib.filters.sanitizer
+missing module named 'six.moves.urllib' - imported by 'six.moves.urllib'
+missing module named ordereddict - imported by html5lib.html5parser, html5lib.treewalkers.etree, html5lib.filters.alphabeticalattributes
+missing module named 'genshi.core' - imported by html5lib.treewalkers.genshi
+missing module named genshi - imported by html5lib.treewalkers.genshi
+missing module named datrie - imported by html5lib._trie.datrie
