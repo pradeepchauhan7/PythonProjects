@@ -18,7 +18,8 @@ for link in soup.findAll('a', attrs={'href': re.compile("^/contractors[-/a-zA-Z0
 s = (set(links))
 #print(len(links))
 
-print("\n")
+
+f = open('ContactDetails.txt', 'a')
 for i in s:
     req = Request(i, headers={'User-Agent': 'Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11'})
     html_page = urlopen(req).read()
@@ -27,10 +28,12 @@ for i in s:
     intro = soup.find('h1')
     for j in ud:
         if(len(j)>10):
-            print(intro.get_text(strip=True) + "\n")
-            print(j.get_text("? ",strip=True))
+            f.write(intro.get_text(strip=True) + "\n\n")
+            f.write(j.get_text("? ", strip=True) + "\n")
             #print(''.join(j.findAll(text=True)))
-            print("------------------------------------------------------------------------------------------------------------------------------------------------------------------------------")
+            f.write("------------------------------------------------------------------------------------------------------------------------------------------------------------------------------")
+f.close()
+
 
 
 """
